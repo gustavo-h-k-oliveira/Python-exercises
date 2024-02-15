@@ -1,5 +1,5 @@
 # Python-exercises
-AtividadeS revisão em Python com professor Arnaldo.
+Atividades de revisão em Python com professor Arnaldo.
 
 1. CRIE UM PROGRAMA EM PYTHON QUE RESOLVA A SÉRIE DE FIBONACCI.
 
