@@ -44,7 +44,7 @@ def reserve_armchair():
             print("Invalid command! Select an available seat in the session.")
             break
         else:
-            print(f"\nYou selected the seat row {reserve_row} and column {reserve_column}.\n")
+            print(f"\nYou selected the seat row {reserve_row} and column {reserve_column}.")
             loop = False
 
     reserve_row = reserve_row - 1
@@ -55,7 +55,7 @@ def reserve_armchair():
     while (loop == True):
         if (array[reserve_row][reserve_column] == 'F'):
             array[reserve_row][ reserve_column] = 'R'
-            print("The seat has been successfully reserved.")
+            print("\nThe seat has been successfully reserved.")
             # 30%
             loop = False
         elif (array[reserve_row][reserve_column] == 'R'):
@@ -214,7 +214,7 @@ def restart_theater():
     ticket_price = 0
 
     print("Booting the system...\n")
-    print("New session initialized!")
+    print("New session initialized!\n")
 
 a = 0
 
@@ -248,4 +248,4 @@ while (a == 0):
     elif (option == 7):
         restart_theater()
     else:
-        print("insert a valid value.")
+        print("\nInsert a valid value.\n")
