@@ -54,7 +54,3 @@ Cada linha representa um aluno e contém seu nome, idade, e as notas de duas pro
 3. Identificar os alunos que obtiveram média superior a 80 e gravar seus nomes em um novo arquivo chamado "alunos_destaque.txt".
 4. Criar uma lista de tuplas contendo o nome e a idade de cada aluno.
 5. Imprimir a lista de tuplas na tela.
-
-Espero que esta tarefa proporcione uma boa prática em Python, abrangendo várias áreas de manipulação de dados e arquivos! Se precisar de ajuda com alguma parte específica, não hesite em perguntar.
-
-Boa Diversão
