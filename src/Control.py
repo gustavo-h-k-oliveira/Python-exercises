@@ -94,7 +94,7 @@ def buy_armchair():
             # 100%
             loop = False
         elif (array[buy_row][buy_column] == 'R'):
-            confirmation = str(input(f"Seat already reserved. Do you want to confirm the purchase? (y/n): "))
+            confirmation = str(input("Seat already reserved. Do you want to confirm the purchase? (y/n): "))
             if (confirmation == 'y'):
                 array[buy_row][ buy_column] = 'O'
                 print("\nPurchase made successfully.")
@@ -131,7 +131,7 @@ def free_armchair():
 
     while (loop == True):
         if (array[free_row][free_column] == 'O'):
-            confirmation = str(input(f"Seat already occupied. Do you want to confirm the cancellation of the purchase? (y/n): "))
+            confirmation = str(input("Seat already occupied. Do you want to confirm the cancellation of the purchase? (y/n): "))
             if (confirmation == 'y'):
                 array[free_row][ free_column] = 'F'
                 print("\nSeat successfully vacated.")
@@ -141,7 +141,7 @@ def free_armchair():
                 print("\nSeat still occupied.")
                 break
         elif (array[free_row][free_column] == 'R'):
-            confirmation = str(input(f"Seat already reserved. Do you want to confirm the cancellation of the reservation? (y/n): "))
+            confirmation = str(input("Seat already reserved. Do you want to confirm the cancellation of the reservation? (y/n): "))
             if (confirmation == 'y'):
                 array[free_row][ free_column] = 'F'
                 print("\nSeat successfully vacated.")
